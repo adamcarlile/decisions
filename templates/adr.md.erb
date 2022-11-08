@@ -1,0 +1,17 @@
+# <%= @id %>. <%= @title %>
+
+Date: <%= @date %>
+
+## Status
+
+<%= @status.render %>## Context
+
+<%= [@context].flatten.join("\n") %>
+
+## Decision
+
+<%= [@decision].flatten.join("\n") %>
+
+## Consequences
+
+<%= [@consequences].flatten.join("\n") %>
